@@ -7,7 +7,7 @@ BUILD_DIR = build
 INCLUDE_DIR = include
 
 # File handling variables
-SRC = $(SRC_DIR)/main.cpp
+SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/HTTP_Client.cpp
 TARGET = $(BUILD_DIR)/run
 CXX_FLAGS = -I$(INCLUDE_DIR) 
 LDLIBS = -lcurl
